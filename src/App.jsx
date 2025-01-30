@@ -6,7 +6,7 @@ import Model from './components/Model'
 import Features from './components/Features'
 import HowItWorks from './components/HowItWorks'
 import Footer from './components/Footer'
-
+import { Analytics } from "@vercel/analytics/react"
 const App = () => {
   return (
     <main className='bg-black'>
@@ -17,6 +17,7 @@ const App = () => {
       <Features/>
       <HowItWorks/>
       <Footer/>
+      <Analytics/>
     </main>
   )
 }
